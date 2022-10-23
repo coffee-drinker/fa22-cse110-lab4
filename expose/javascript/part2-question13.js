@@ -14,3 +14,6 @@
 // console.log (true == 2); 
 // console.log (true === Boolean (2))
 // console.log (Boolean (-2))
+
+
+// Test
