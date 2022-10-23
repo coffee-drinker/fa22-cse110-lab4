@@ -44,3 +44,10 @@
 
 15. "==" is an easy comparison that allows type conversion. "===" is a strict comparison that does not allow type conversion. 
 
+16. See part2-question16.js
+
+17. It will return an array whose values inside the array is double of the values inside the input array. It is because we create a new array called newArr. Then we go through a for loop to loop through all the elements inside the input array. Then for every value of the input array we pass it to the call back function which returns the double of the input number. Then we insert the doubled value into the newArr. Once it is done, newArr is returned. 
+
+18. See part2-question18.js
+
+19. It will print out 1, 4, 3, 2. 1 will be printed first because there is no delay and no SetTimeout. 2 will be printed last because it has timeout for 1 second. 4 will be printed earlier than 3 because 3 goes into the SetTimeout function althrough it does not have delay, but while 3 is going through the settimeout, 4 is executed and printed. 
